@@ -1,15 +1,11 @@
 --- OVERVIEW ---
-This project contains the datasets submitted during Phase I and all the code
+This project contains the datasets sourced from Kaggle and all the code
 from preprocessing the data, to model tuning, and reproducing performance
 metrics, tables, and confusion matrices produced in the report.
 
 Note: Execution may take 25+ minutes as the SVM model in particular takes a
 very long time to run with the large dataset.
 
-I tried running my code on my Macbook, and I get some different output and charts
-than on my Windows desktop. I get the exact same results on my Windows
-Laptop as I get on my Windows desktop however, so this appears to be
-platform specific for some reason.
 
 --- REQUIREMENTS ---
 The code was developed on Windows using Python 3.13 with the following libraries and versions:
@@ -40,7 +36,8 @@ The '../data/' directory should contain:
 - baseball_test.csv
 - baseball_train.csv
 
-These are the datasets exactly as provided in Phase I.
+The animal dataset was sourced from Kaggle: https://www.kaggle.com/competitions/shelter-animal-outcomes/
+The baseball dataset was sourced from Kaggle: https://www.kaggle.com/datasets/jcraggy/baseball/
 
 --- EXECUTION ---
 All data processing, model training, and figure generation is automated
