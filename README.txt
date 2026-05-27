@@ -6,6 +6,14 @@ metrics, tables, and confusion matrices produced in the report.
 Note: Execution may take 25+ minutes as the SVM model in particular takes a
 very long time to run with the large dataset.
 
+--- RESULTS SUMMARY ---
+Baseball (Binary - Home Run Prediction): SVM achieved the best PR-AUC (0.70) 
+and Decision Tree the best Test F1 (0.67), both outperforming KNN and Logistic Regression.
+
+Animal Shelter (Multiclass - Outcome Prediction): All models achieved macro F1 
+scores around 0.40. Decision Tree and RandomForest better identified minority 
+classes (euthanasia, death) due to class_weight balancing.
+
 
 --- REQUIREMENTS ---
 The code was developed on Windows using Python 3.13 with the following libraries and versions:
